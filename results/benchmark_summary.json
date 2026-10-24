@@ -1,0 +1,155 @@
+[
+    {
+        "mode": "ADAPTIVE",
+        "scenario": "Normal",
+        "total_sent": 50,
+        "delivered": 50,
+        "delivery_rate_pct": 100.0,
+        "retransmissions": 0,
+        "out_of_order_packets": 11,
+        "avg_latency_ms": 38.18,
+        "throughput_pkts_per_sec": 14.1,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.6361,
+            "R2": 0.262,
+            "R3": 0.1019
+        }
+    },
+    {
+        "mode": "ROUND_ROBIN",
+        "scenario": "Normal",
+        "total_sent": 50,
+        "delivered": 50,
+        "delivery_rate_pct": 100.0,
+        "retransmissions": 0,
+        "out_of_order_packets": 9,
+        "avg_latency_ms": 42.52,
+        "throughput_pkts_per_sec": 14.08,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.3333333333333333,
+            "R2": 0.3333333333333333,
+            "R3": 0.3333333333333333
+        }
+    },
+    {
+        "mode": "SHORTEST_PATH",
+        "scenario": "Normal",
+        "total_sent": 50,
+        "delivered": 50,
+        "delivery_rate_pct": 100.0,
+        "retransmissions": 0,
+        "out_of_order_packets": 0,
+        "avg_latency_ms": 17.65,
+        "throughput_pkts_per_sec": 14.09,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 1.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "ADAPTIVE",
+        "scenario": "Congested_R1",
+        "total_sent": 50,
+        "delivered": 10,
+        "delivery_rate_pct": 20.0,
+        "retransmissions": 5,
+        "out_of_order_packets": 44,
+        "avg_latency_ms": 87.77,
+        "throughput_pkts_per_sec": 2.81,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "ROUND_ROBIN",
+        "scenario": "Congested_R1",
+        "total_sent": 50,
+        "delivered": 50,
+        "delivery_rate_pct": 100.0,
+        "retransmissions": 7,
+        "out_of_order_packets": 34,
+        "avg_latency_ms": 217.42,
+        "throughput_pkts_per_sec": 14.1,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 1.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "SHORTEST_PATH",
+        "scenario": "Congested_R1",
+        "total_sent": 50,
+        "delivered": 50,
+        "delivery_rate_pct": 100.0,
+        "retransmissions": 10,
+        "out_of_order_packets": 38,
+        "avg_latency_ms": 297.08,
+        "throughput_pkts_per_sec": 14.08,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.0,
+            "R2": 1.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "ADAPTIVE",
+        "scenario": "Link_Failure_R1",
+        "total_sent": 50,
+        "delivered": 15,
+        "delivery_rate_pct": 30.0,
+        "retransmissions": 40,
+        "out_of_order_packets": 27,
+        "avg_latency_ms": 41.47,
+        "throughput_pkts_per_sec": 4.22,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "ROUND_ROBIN",
+        "scenario": "Link_Failure_R1",
+        "total_sent": 50,
+        "delivered": 15,
+        "delivery_rate_pct": 30.0,
+        "retransmissions": 36,
+        "out_of_order_packets": 27,
+        "avg_latency_ms": 60.92,
+        "throughput_pkts_per_sec": 4.22,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    },
+    {
+        "mode": "SHORTEST_PATH",
+        "scenario": "Link_Failure_R1",
+        "total_sent": 49,
+        "delivered": 15,
+        "delivery_rate_pct": 30.61,
+        "retransmissions": 104,
+        "out_of_order_packets": 8,
+        "avg_latency_ms": 26.64,
+        "throughput_pkts_per_sec": 4.22,
+        "duration_sec": 3.55,
+        "distribution_weights": {
+            "R1": 0.0,
+            "R2": 0.0,
+            "R3": 0.0
+        }
+    }
+]

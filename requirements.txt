@@ -1,0 +1,6 @@
+# Core dependencies for Adaptive Multipath Communication System
+streamlit>=1.30.0
+plotly>=5.18.0
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
