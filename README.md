@@ -4,9 +4,9 @@
 **Faculty Guide**: Dr. Tamizharasi T  
 **Team Members**:
 - **Sarang Raj** (Path discovery, topology orchestration, packet structure & CRC32 integrity)
-- **Dev Raj** (Packet spraying engine, sliding-window reordering buffer, reliability layer)
-- **Antony Roy** (Real-time path telemetry, EWMA RTT / RFC 3550 jitter / loss monitoring, failure detection)
-- **Ayush** (Adaptive weighted path scoring, traffic distribution, Streamlit web dashboard & benchmarking)
+-   (Packet spraying engine, sliding-window reordering buffer, reliability layer)
+-  (Real-time path telemetry, EWMA RTT / RFC 3550 jitter / loss monitoring, failure detection)
+-  (Adaptive weighted path scoring, traffic distribution, Streamlit web dashboard & benchmarking)
 
 ---
 
