@@ -85,11 +85,4 @@ This generates:
 
 ---
 
-## 👥 Module Ownership & Review Deliverables
 
-| Team Member | Module | Deliverable |
-| :--- | :--- | :--- |
-| **Sarang Raj** | `packet.py`, `topology.py` | Packet format with CRC32 integrity, network orchestrator |
-| **Dev Raj** | `reordering_buffer.py`, `sender.py` (Reliability) | Sliding-window reordering, ACK/NACK & RTO retransmission |
-| **Antony Roy** | `monitor.py`, `router.py` | Live path telemetry (RTT, jitter, loss), failure detection |
-| **Ayush** | `scorer.py`, `dashboard/app.py`, `benchmark.py` | Adaptive scoring algorithm, Streamlit UI, evaluation charts |
